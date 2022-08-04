@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(51, 47, 47);
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h5{
+    font-size: 15px;
+}
+
+/* Banner */
+
+.top-banner{
+    background-image: url(/img/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.banner{
+    padding: 5%;
+}
+
+.half{
+    width: 40%;
+    float: left;
+    padding: 2%;
+}
+
+.name-hg{
+    color: rgb(255, 40, 154);
+}
+
+.bio{
+    margin-bottom: 5%;
+}
+
+.hire{
+    text-decoration: none;
+    background-color: rgb(255, 40, 154);
+    color: white;
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.half img{
+    width: 75%;
+    float: left;
+    margin-left: 25%;
+}
+
+/* Biography */
+
+.biohigh{
+    margin-top: 10%;
+}
+
+.biography{
+    background-image: url(/img/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+.graphy{
+    padding-top: 50px;
+}
+
+/* Work */
+
+.work{
+    background-image: url(/img/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+
+.work-work{
+    padding: 5%;
+}
+
+.half-work{
+    width: 25%;
+    float: left;
+    padding: 2%;
+}
+
+.work-bio{
+    text-align: center;
+}
+
+.half-work img{
+    width: 75%;
+    margin-left: 25%;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+    background-image: url(/img/footer-bg.png);
+    background-repeat: no-repeat;
+}
+
+.foot{
+    background-color: rgb(255, 40, 154);
+    padding: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+    color: white;
+}
+
+.foot-bio{
+    margin-top: 100px;
+}
+
+.me{
+    text-decoration: none;
+    color: rgb(255, 40, 154);
+}
